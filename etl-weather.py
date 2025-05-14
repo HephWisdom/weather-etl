@@ -60,8 +60,8 @@ def load_weather_data(df: pd.DataFrame, db_name: str = "weather_db.sqlite") -> N
     
 def main():
     
-
-    API_KEY = "d120e106a9edf5aa040ebc3bd26a1e7c"
+    #supply your own api key or token to fully utilize the app
+    API_KEY = ""
     list = ["San Diego","Dhaka","Phoenix","baghdad","Yangon","Kabul"]
     
     for city in list:
